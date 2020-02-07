@@ -14,9 +14,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Toast.makeText(this,"ciontoh oas",Toast.LENGTH_LONG).show()
 
-        imgucup.setOnClickListener {
-            startActivity(Intent(this, Main2Activity::class.java))
-        }
     }
 
 
