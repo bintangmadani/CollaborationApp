@@ -4,23 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <ImageView
-        android:id="@+id/imgucup"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/photo1"/>
+    tools:context=".Main2Activity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SAYA BAU"
+        android:text="Sangat Bau"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textColor="#FFF"
-        android:textStyle="bold"/>
+        android:textSize="100sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
