@@ -12,6 +12,7 @@
         android:layout_centerInParent="true"
         android:textAlignment="center"
         android:textSize="100sp"
+        android:textStyle="bold"
         android:text="Opah"/>
 
 </RelativeLayout>
